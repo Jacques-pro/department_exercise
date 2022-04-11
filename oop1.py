@@ -1,3 +1,38 @@
+'''
+Question
+
+At college some courses have prerequisite courses. A student must take all course X's prerequisite courses first, to enroll in class X.
+Each student belongs to one department (ex: Biotechnology). The department has a list of courses required to graduate.
+
+Using your knowledge of Python OOP, build a simple system to help the school and students determine the order in which they should take their courses.
+To the minimum, the following classes will be present in your program:
+1. School
+2. Department
+3. Course
+
+The following actions will need to be performed for each class:
+
+School class:
+Register a department
+Delete a department
+Get all departments' information
+
+Department class:
+Register a course
+Delete a course
+Get courses
+Get the order in which classes should be taken in order to graduate
+
+Course class:
+Add prerequisite course
+Delete a prerequisite course
+
+- You are free to add any other classes and data structures that you may find necessary
+- Add the time and space complexity for performing the 9 operations above
+
+'''
+
+
 
 #school will be the parent class 
 # department child class of parent class( school)
